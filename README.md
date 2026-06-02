@@ -80,3 +80,16 @@ If knip-action saves you time, consider [sponsoring on GitHub](https://github.co
 ## License
 
 MIT
+
+
+## Other Claude AI Tools
+
+These companion tools from the same author work great together:
+
+- **[claude-pr-review](https://github.com/icgriggs14/claude-pr-review)** — AI-powered PR code review using Claude
+- **[claude-changelog-action](https://github.com/icgriggs14/claude-changelog-action)** — Auto-generate changelogs from commits using Claude
+- **[claude-test-writer](https://github.com/icgriggs14/claude-test-writer)** — AI unit test generation CLI + GitHub Action
+- **[react-doctor-action](https://github.com/icgriggs14/react-doctor-action)** — CI health checks for React projects
+- **[secretlint-action](https://github.com/icgriggs14/secretlint-action)** — CI credential leak detection using secretlint
+
+[Sponsor this work on GitHub Sponsors](https://github.com/sponsors/icgriggs14)
