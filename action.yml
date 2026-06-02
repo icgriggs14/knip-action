@@ -1,0 +1,39 @@
+name: 'knip-action'
+description: 'GitHub Action CI companion for knip — detects unused exports, files, and dependencies on every PR'
+author: 'icgriggs14'
+
+branding:
+  icon: 'trash-2'
+  color: 'purple'
+
+inputs:
+  threshold:
+    description: 'Fail CI if issue count exceeds this number (0 = fail on any issue)'
+    required: false
+    default: '0'
+  fail_on_error:
+    description: 'Fail CI when knip exits with an error (not just on findings)'
+    required: false
+    default: 'true'
+  reporter:
+    description: 'knip reporter format: compact | json | codeowners'
+    required: false
+    default: 'compact'
+  github_token:
+    description: 'GitHub token for posting PR comments'
+    required: false
+    default: '${{ github.token }}'
+  working_directory:
+    description: 'Directory to run knip in (default: repo root)'
+    required: false
+    default: '.'
+
+outputs:
+  issue_count:
+    description: 'Total number of knip issues found'
+  passed:
+    description: 'true if knip found no issues exceeding threshold, false otherwise'
+
+runs:
+  using: 'node20'
+  main: 'src/index.js'

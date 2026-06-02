@@ -1,0 +1,26 @@
+{
+  "name": "knip-action",
+  "version": "1.0.0",
+  "description": "GitHub Action CI companion for knip — detects unused exports, files, and dependencies on every PR",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node -e \"require('./src/index.js')\" || true"
+  },
+  "keywords": [
+    "knip",
+    "github-actions",
+    "unused-exports",
+    "dead-code",
+    "typescript",
+    "javascript",
+    "ci",
+    "code-quality"
+  ],
+  "author": "icgriggs14",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.0"
+  }
+}
