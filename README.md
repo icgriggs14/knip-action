@@ -1,7 +1,8 @@
-# knip-action
+﻿# knip-action
 
 > GitHub Action CI companion for [knip](https://github.com/webpro-nl/knip) — automatically detects unused exports, files, and dependencies on every PR.
 
+[![GitHub Stars](https://img.shields.io/github/stars/icgriggs14/knip-action?style=social)](https://github.com/icgriggs14/knip-action)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-knip--action-blue?logo=github)](https://github.com/marketplace/actions/knip-action)
 [![knip](https://img.shields.io/badge/powered%20by-knip-purple)](https://github.com/webpro-nl/knip)
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/icgriggs14)
@@ -81,6 +82,12 @@ If knip-action saves you time, consider [sponsoring on GitHub](https://github.co
 
 MIT
 
+
+
+## Related
+
+- [knip](https://github.com/webpro-nl/knip) — the underlying tool (7.97M weekly downloads)
+- [knip.dev/guides/using-knip-in-ci](https://knip.dev/guides/using-knip-in-ci) — official CI integration guide
 
 ## Other Claude AI Tools
 
